@@ -65,21 +65,21 @@
             // 
             this.加载ToolStripMenuItem.Name = "加载ToolStripMenuItem";
             this.加载ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.加载ToolStripMenuItem.Text = "加载";
+            this.加载ToolStripMenuItem.Text = "Открыть";
             this.加载ToolStripMenuItem.Click += new System.EventHandler(this.加载ToolStripMenuItem_Click);
             // 
             // 另存为ToolStripMenuItem
             // 
             this.另存为ToolStripMenuItem.Name = "另存为ToolStripMenuItem";
             this.另存为ToolStripMenuItem.Size = new System.Drawing.Size(56, 21);
-            this.另存为ToolStripMenuItem.Text = "另存为";
+            this.另存为ToolStripMenuItem.Text = "Сохранить как";
             this.另存为ToolStripMenuItem.Click += new System.EventHandler(this.另存为ToolStripMenuItem_Click);
             // 
             // 关闭文件ToolStripMenuItem
             // 
             this.关闭文件ToolStripMenuItem.Name = "关闭文件ToolStripMenuItem";
             this.关闭文件ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.关闭文件ToolStripMenuItem.Text = "关闭文件";
+            this.关闭文件ToolStripMenuItem.Text = "Закрыть";
             this.关闭文件ToolStripMenuItem.Click += new System.EventHandler(this.关闭文件ToolStripMenuItem_Click);
             // 
             // statusStrip1
@@ -102,7 +102,7 @@
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(58, 17);
-            this.toolStripStatusLabel1.Text = "Log 区域";
+            this.toolStripStatusLabel1.Text = "Log";
             // 
             // listView1
             // 
@@ -126,17 +126,17 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "原字符串";
+            this.columnHeader1.Text = "Исходная строка";
             this.columnHeader1.Width = 152;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "新字符串";
+            this.columnHeader2.Text = "Новая строка";
             this.columnHeader2.Width = 127;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "是否修改";
+            this.columnHeader3.Text = "Модифицировать?";
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader3.Width = 148;
             // 
@@ -166,7 +166,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 22);
             this.button1.TabIndex = 0;
-            this.button1.Text = "下一个";
+            this.button1.Text = "След.";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -190,7 +190,7 @@
             // 
             this.编辑ToolStripMenuItem.Name = "编辑ToolStripMenuItem";
             this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
-            this.编辑ToolStripMenuItem.Text = "编辑";
+            this.编辑ToolStripMenuItem.Text = "Изменить";
             this.编辑ToolStripMenuItem.Click += new System.EventHandler(this.编辑ToolStripMenuItem_Click);
             // 
             // MainForm

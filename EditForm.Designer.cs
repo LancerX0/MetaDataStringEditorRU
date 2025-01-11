@@ -43,7 +43,7 @@
             this.保存.Name = "保存";
             this.保存.Size = new System.Drawing.Size(75, 23);
             this.保存.TabIndex = 1;
-            this.保存.Text = "保存";
+            this.保存.Text = "Сохранить";
             this.保存.UseVisualStyleBackColor = true;
             this.保存.Click += new System.EventHandler(this.保存_Click);
             // 
@@ -53,7 +53,7 @@
             this.放弃此次修改.Name = "放弃此次修改";
             this.放弃此次修改.Size = new System.Drawing.Size(91, 23);
             this.放弃此次修改.TabIndex = 2;
-            this.放弃此次修改.Text = "放弃此次修改";
+            this.放弃此次修改.Text = "Отмена изменения";
             this.放弃此次修改.UseVisualStyleBackColor = true;
             this.放弃此次修改.Click += new System.EventHandler(this.放弃此次修改_Click);
             // 
@@ -63,7 +63,7 @@
             this.还原该串的修改.Name = "还原该串的修改";
             this.还原该串的修改.Size = new System.Drawing.Size(105, 23);
             this.还原该串的修改.TabIndex = 3;
-            this.还原该串的修改.Text = "还原该串的修改";
+            this.还原该串的修改.Text = "Восстановить исходное значение";
             this.还原该串的修改.UseVisualStyleBackColor = true;
             this.还原该串的修改.Click += new System.EventHandler(this.还原该串的修改_Click);
             // 
